@@ -17,10 +17,17 @@ body {
     color: white;
 }
 
-.header {
+.header .container {
     display: flex;
     justify-content: space-between;
-    padding: 16px 300px;
+    width: 1300px;
+    padding: 0 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 00px;
     gap: 20px;
 }
 
