@@ -68,12 +68,16 @@ a {
     color: #F9FAF8;
 }
 
+.top .top-text button {
+    border: none;
+}
+
 button {
     background-color: #3882F6;
     color: white;
     padding: 8px 24px;
-    border: none;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .top img {
@@ -124,7 +128,7 @@ button {
 .quote .container {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 65%;
 }
 
 .quote .text:first-child {
@@ -138,6 +142,32 @@ button {
     text-align: end;
     font-weight: bold;
     margin-top: 16px;
+}
+
+.calltoaction {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.calltoaction .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 100px;
+}
+
+.calltoaction .text:first-child {
+    font-weight: bold;
+}
+
+.calltoaction .container button {
+    border: 2px solid white;
 }
 
 .footer {
