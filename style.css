@@ -1,7 +1,3 @@
-/* * {
-    border: 1px solid red;
-} */
-
 body {
     height: 100vh;
     margin: 0;
@@ -11,7 +7,7 @@ body {
 }
 
 .header,
-.top,
+.awesome,
 .footer {
     background-color: #1F2937;
     color: white;
@@ -31,6 +27,12 @@ body {
     gap: 20px;
 }
 
+.header .left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -45,30 +47,24 @@ a {
     color: inherit;
 }
 
-.header .left {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
 .content {
     flex: 1;
 }
 
-.top {
+.awesome {
     display: flex;
     justify-content: center;
     padding: 100px 300px;
     gap: 50px;
 }
 
-.top .top-text .text:first-child {
+.awesome .awesome-text .text:first-child {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.top .top-text button {
+.awesome .awesome-text button {
     border: none;
 }
 
@@ -80,7 +76,7 @@ button {
     font-weight: bold;
 }
 
-.top img {
+.awesome img {
     width: 800px;
     max-height: 250px;
     object-fit: cover;
@@ -141,7 +137,7 @@ button {
 .quote .text:last-child {
     text-align: end;
     font-weight: bold;
-    margin-top: 16px;
+    margin-awesome: 16px;
 }
 
 .calltoaction {
