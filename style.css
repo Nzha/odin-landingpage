@@ -20,7 +20,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 350px;
+    padding: 16px 300px;
+    gap: 20px;
 }
 
 ul {
@@ -49,14 +50,14 @@ a {
 
 .top {
     display: flex;
-    justify-content: space-between;
-    padding: 100px 350px;
+    justify-content: center;
+    padding: 100px 300px;
     gap: 50px;
 }
 
-.top .top-text {
+/* .top .top-text {
     width: 400px;
-}
+} */
 
 .top .top-text .text:first-child {
     font-size: 48px;
@@ -73,27 +74,40 @@ button {
 }
 
 .top img {
-    width: 600px;
-    height: 250px;
+    /* flex: 1 1 0%; */
+    width: 800px;
+    max-height: 250px;
     object-fit: cover;
 }
 
 .information {
     text-align: center;
-    padding: 50px 0 50px;
+    padding: 40px 0 40px;
 }
 
 .information .text:first-child {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 50px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .footer {
