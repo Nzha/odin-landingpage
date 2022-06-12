@@ -78,6 +78,24 @@ button {
     object-fit: cover;
 }
 
+.information {
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+.information .text:first-child {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
